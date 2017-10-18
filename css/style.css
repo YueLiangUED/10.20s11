@@ -1,3 +1,8 @@
+html,body{
+    width: 100%;
+    height: 30rem;
+    background: -webkit-gradient(linear,0 100%,220% 70%,from(#ed981a),to(#ed312d));
+}
 header{
     position: relative;
     width: 7.5rem;
@@ -15,4 +20,369 @@ header>span{
     height: 4.3rem;
     background: url("../images/headerPic_1.png") center no-repeat;
     background-size: cover;
+}
+header>div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: .29rem;
+    margin: auto;
+    width: 5.45rem;
+    height: .8rem;
+    border-radius: .2rem;
+    background-color: #5f227d;
+}
+header>div>div{
+    position: absolute;
+    bottom: .26rem;
+    box-sizing: border-box;
+    width: 5.45rem;
+    height: 1.87rem;
+    border-radius: .2rem;
+    border: 4px solid #a971c8;
+    box-shadow: -3px 2px 20px inset;
+    background-color: #43006d;
+}
+header>div>div .light_box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 5.26rem;
+    height: 1.77rem;
+    background: url("../images/light_1.png") center no-repeat;
+    background-size: cover;
+}
+header>div>div .light_box span{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+header>div>div .light_box .l1{
+    background: url("../images/light_2.png") center no-repeat;
+    background-size: cover;
+}
+header>div>div .light_box .l2{
+    background: url("../images/light_3.png") center no-repeat;
+    background-size: cover;
+}
+header>div>div .numBoxWrap{
+    box-sizing: border-box;
+    margin: .32rem auto 0;
+    width: 4.63rem;
+    height: .9rem;
+    border-radius: .1rem;
+    border: 3px solid #f8307f;
+}
+header>div>div .numBoxInner{
+    display: flex;
+    box-sizing: border-box;
+    padding-left: .12rem;
+    align-items: center;
+    width: 4.53rem;
+    height: .79rem;
+    box-shadow: -5px 2px 5px -3px rgba(0,0,0,.8) inset;
+    border-radius: .09rem;
+    background-color: #fff0b4;
+}
+header>div>div .numBoxInner>span{
+    margin-right: .1rem;
+    font-size: .22rem;
+    line-height: 1.2em;
+    color: #373737;
+}
+header>div>div .numBoxInner>span:last-child{
+    margin-left: .05rem;
+}
+header>div>div .numBoxInner ul{
+    overflow: hidden;
+    margin-right: .07rem;
+    width: .34rem;
+    height: .51rem;
+    border-radius: .1rem;
+    background-color: #373737;
+}
+header>div>div .numBoxInner ul li{
+    width: 100%;
+    height: 100%;
+    font-size: .34rem;
+    line-height: .51rem;
+    text-align: center;
+    color: #ffffff;
+}
+header>div>div .numBoxWrap .numDescBox{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 4.26rem;
+}
+header>div>div .numBoxWrap .numDescBox span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: .92rem;
+    height: .02rem;
+    background-color: #ffffff;
+}
+header>div>div .numBoxWrap .numDescBox span:nth-child(1){
+    left: 0;
+}
+header>div>div .numBoxWrap .numDescBox span:last-child{
+    right: 0;
+}
+header>div>div .numBoxWrap .numDescBox p{
+    font-size: .22rem;
+    line-height: .4rem;
+    color: #ffffff;
+}
+header>div>div .numBoxWrap .numDescBox p i{
+    font-style: normal;
+    color: #fff832;
+}
+main{
+    box-sizing: border-box;
+    margin: 0 auto .39rem;
+    padding: .33rem 0 .58rem .41rem;
+    width: 7rem;
+    background-color: #fffbe0;
+}
+main .conTitle{
+    position: relative;
+    height: .70rem;
+}
+main .conTitle span{
+    position: absolute;
+}
+main .conTitle span:nth-child(1){
+    top: -.18rem;
+    left: -.3rem;
+    width: 5.18rem;
+    height: 1.12rem;
+    background: url("../images/subNavTitleBg.png") center no-repeat;
+    background-size: cover;
+}
+main .conTitle span:nth-child(2){
+    width: 6.23rem;
+    height: .7rem;
+    background: url("../images/title_1.png") center no-repeat;
+    background-size: cover;
+}
+main .conTitle._2 span:nth-child(2){
+    background: url("../images/title_2.png") center no-repeat;
+    background-size: cover;
+}
+main .conTitle._3 span:nth-child(2){
+    background: url("../images/title_3.png") center no-repeat;
+    background-size: cover;
+}
+main .conTitle._4 span:nth-child(2){
+    background: url("../images/title_4.png") center no-repeat;
+    background-size: cover;
+}
+main .conTitle._5 span:nth-child(2){
+    background: url("../images/title_5.png") center no-repeat;
+    background-size: cover;
+}
+main .conTitle._6 span:nth-child(2){
+    background: url("../images/title_6.png") center no-repeat;
+    background-size: cover;
+}
+main .conTitle._7 span:nth-child(2){
+    background: url("../images/title_7.png") center no-repeat;
+    background-size: cover;
+}
+main .conCard{
+    margin:0 0 .2rem -.1rem;
+    width: 6.56rem;
+    height: 3.19rem;
+}
+main .conCard img{
+    width: 100%;
+    height: 100%;
+}
+main .gameBox{
+    position: relative;
+    margin: .14rem 0 .33rem -.11rem;
+    width: 6.39rem;
+    height: 5.32rem;
+    background: url("../images/gameBoxWrapper.png") center no-repeat;
+    background-size: cover;
+}
+main .gameBox .gk{
+    position: relative;
+    margin: 0 auto .21rem;
+    width: 5.18rem;
+    height: .99rem;
+}
+main .gameBox .gk span{
+    position: absolute;
+    top: .37rem;
+    width: 1.54rem;
+    height: .62rem;
+    text-align: center;
+    line-height: .62rem;
+    font-size: .27rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: url("../images/guanka.png") center no-repeat;
+    background-size: cover;
+}
+main .gameBox .gk span:nth-child(2){
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+main .gameBox .gk span:nth-child(3){
+    right: 0;
+}
+main .gameBox .mbBox{
+    position: relative;
+    margin: 0 auto;
+    width: 5.18rem;
+}
+main .gameBox .mbBox>div{
+    position: absolute;
+    width: 1.47rem;
+    height: 1.47rem;
+    text-align: center;
+    background: url("../images/MB_bg.png") center no-repeat;
+    background-size: cover;
+}
+main .gameBox .mbBox>div:nth-child(1){
+    left: .03rem;
+}
+main .gameBox .mbBox>div:nth-child(2){
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+main .gameBox .mbBox>div:nth-child(3){
+    right: .03rem;
+}
+main .gameBox .mbBox>div span{
+    position: absolute;
+    top: .16rem;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    margin: auto;
+    width: .98rem;
+    height: .98rem;
+    font-size: .36rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: .98rem;
+    box-shadow: -3px 2px 5px rgba(0,0,0,.5) inset;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+main .gameBox .mbBox>div:nth-child(1) span{
+    background-color: #fd3f2f;
+}
+main .gameBox .mbBox>div:nth-child(2) span{
+    background-color: #1eafcc;
+}
+main .gameBox .mbBox>div:nth-child(3) span{
+    background-color: #3dc482;
+}
+main .gameBox .mbBox>div i{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .22rem;
+    line-height: .28rem;
+    color: #fd3f2f;
+}
+main .gameBox .btnBox{
+    position: relative;
+    width: 100%;
+    height: 4rem;
+}
+main .gameBox .btnBox span{
+    position: absolute;
+    bottom: 0;
+    width: 2.36rem;
+    height: .84rem;
+    font-size: .28rem;
+    text-align: center;
+    line-height: .68rem;
+    font-weight: bold;
+    color: #990e00;
+    background: url("../images/sBtn_bg.png") center no-repeat;
+    background-size: cover;
+}
+main .gameBox .btnBox span:nth-child(1){
+    left: .64rem;
+}
+main .gameBox .btnBox span:nth-child(2){
+    right: .64rem;
+}
+main .gameBox .cjBtn{
+    position: absolute;
+    bottom: 1.27rem;
+    width: 1.06rem;
+    height: .71rem;
+    background: url("../images/cjBtn.png") center no-repeat;
+    background-size: cover;
+}
+main .gameBox .cjBtn._1{
+    left: .8rem;
+}
+main .gameBox .cjBtn._1.active{
+    left: .83rem;
+}
+main .gameBox .cjBtn._2{
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+main .gameBox .cjBtn._3{
+    right: .8rem;
+}
+main .gameBox .cjBtn._3.active{
+    right: .83rem;
+}
+main .gameBox .cjBtn.active{
+    width: .94rem;
+    height: .63rem;
+    background: url("../images/cjBtn_act.png") center no-repeat;
+    background-size: cover;
+}
+main footer{
+    margin: .3rem 0 0 .14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.97rem;
+    height: 1.17rem;
+    background: url("../images/footerBtn.png") center no-repeat;
+    background-size: cover;
+}
+main footer>div{
+    width: 5.97rem;
+    height: 1.17rem;
+    background: url("../images/footerBtn.png") center no-repeat;
+    background-size: cover;
+}
+
+.mask{
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=80);
+    background-color: #000;
+    z-index: 100;
+    left: 0px;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
 }
