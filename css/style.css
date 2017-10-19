@@ -373,6 +373,7 @@ main .gameBox .cjBtn{
     height: .71rem;
     background: url("../images/cjBtn.png") center no-repeat;
     background-size: cover;
+    z-index: 50;
 }
 main .gameBox .cjBtn._1{
     left: .8rem;
@@ -404,8 +405,6 @@ main footer{
     justify-content: center;
     width: 5.97rem;
     height: 1.17rem;
-    background: url("../images/footerBtn.png") center no-repeat;
-    background-size: cover;
 }
 main footer>div{
     width: 5.97rem;

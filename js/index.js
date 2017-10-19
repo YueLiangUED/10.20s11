@@ -31,10 +31,9 @@ $(function () {
     }
     window.setInterval(show_light,1000);
 
-    //参数 总数字符串
-    count('1232');
     //计数器
     //@param string
+    count('1232');
     function count(numStr) {
         var numArr = ('00000000' + numStr).slice(-8);
         numArr = new Array(numArr[0],numArr[1],numArr[2],numArr[3],numArr[4],numArr[5],numArr[6],numArr[7]);
@@ -77,6 +76,26 @@ $(function () {
             }
         });
     }
+
+    //首页抽奖按钮
+    $('.cjBtn').on('click',function () {
+        if($(this).hasClass('active')){
+            return false;
+        }else{
+            $(this).addClass('active');
+        }
+    });
+    //首页再玩一次按钮动画
+    window.setInterval(function () {
+        $('footer div').animate({
+            opacity: '0'
+        },500,function () {
+            $('footer div').animate({
+                opacity: '1'
+            },500);
+        });
+    },500)
+
     //显示遮罩层
     function showMask(){
         $("#mask").css("height",$(document).height());
