@@ -158,6 +158,57 @@ $(function () {
     $('#ljBtn').on('click',function () {
         window.location.href = 'index1.html';
     });
+    //领奖页面领取按钮点击
+    $('.btn_lq').on('click',function () {
+        if($(this).hasClass('act')){
+            return false;
+        }else{
+            showTc_2_1();
+            $(this).addClass('flag');
+        }
+    });
+    //2级页面第一个弹窗取消按钮
+    $('.tc-1_1_Btn_qx').on('click',function () {
+        hideTc_2_1();
+        $('.btn_lq').removeClass('flag');
+    });
+    //2级页面第一个弹窗领取按钮
+    $('.tc-1_1_Btn').on('click',function () {
+        $('.flag').addClass('act');
+        $('.flag').text('已领取');
+        hideTc_2_1();
+        showTc_2_2();
+    });
+    //显示2级页面第一个弹窗
+    function showTc_2_1() {
+        $('.tc-1_1').fadeIn();
+        showMask();
+    }
+    //显示2级页面第二个弹窗
+    function showTc_2_2() {
+        $('.tc-1_2').fadeIn();
+        showMask();
+    }
+    //显示2级页面第三个弹窗
+    function showTc_2_3() {
+        $('.tc-1_1').fadeIn();
+        showMask();
+    }
+    //隐藏2级页面第一个弹窗
+    function hideTc_2_1() {
+        $('.tc-1_1').fadeOut();
+        hideMask();
+    }
+    //隐藏2级页面第二个弹窗
+    function hideTc_2_2() {
+        $('.tc-1_1').fadeOut();
+        hideMask();
+    }
+    //隐藏2级页面第三个弹窗
+    function hideTc_2_3() {
+        $('.tc-1_1').fadeOut();
+        hideMask();
+    }
     //显示遮罩层
     function showMask(){
         $("#mask").css("height",$(document).height());
