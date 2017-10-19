@@ -1,6 +1,4 @@
 html,body{
-    width: 100%;
-    height: 30rem;
     background: -webkit-gradient(linear,0 100%,220% 70%,from(#ed981a),to(#ed312d));
 }
 header{
@@ -106,9 +104,8 @@ header>div>div .numBoxInner>div span{
 header>div>div .numBoxInner>div span:last-child{
     margin-left: .05rem;
 }
-header>div>div .numBoxInner ul{
+header>div>div .numBoxInner>div ul{
     position: relative;
-    display: inline;
     margin-right: .07rem;
     width: .34rem;
     height: .51rem;
