@@ -89,12 +89,12 @@ $(function () {
     window.setInterval(function () {
         $('footer div').animate({
             opacity: '0'
-        },500,function () {
+        },250,function () {
             $('footer div').animate({
                 opacity: '1'
-            },1000);
+            },500);
         });
-    },1500);
+    },1000);
 
     //显示遮罩层
     function showMask(){
