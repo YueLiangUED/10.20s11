@@ -19,7 +19,7 @@ main{
     align-items: center;
     justify-content: center;
     width: 6.74rem;
-    height: 8.2rem;
+    height: 7.2rem;
     border-radius: .1rem;
     box-shadow: 5px 10px 20px #da4810;
     background: -webkit-gradient(linear,0 100%,100% 0,from(#feef7c),to(#fcad12));
@@ -27,7 +27,7 @@ main{
 main>div{
     box-sizing: border-box;
     width: 6.46rem;
-    height: 7.86rem;
+    height: 6.86rem;
     border: 2px solid #d56f03;
     border-radius: .1rem;
     background-color: #fffde6;
@@ -63,7 +63,7 @@ main>div ul{
     overflow: scroll;
     margin: 0 auto;
     width: 5.24rem;
-    height: 4rem;
+    height: 3.2rem;
 }
 main>div ul li{
     position: relative;
