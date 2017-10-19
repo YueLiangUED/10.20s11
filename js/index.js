@@ -200,10 +200,14 @@ $(function () {
     $('.tc-1_2_Btn').on('click',function () {
         hideTc_2_2();
     });
-    //2级页面第三个弹窗确定按钮
+    //再玩一次弹窗确定按钮
     $('.tc-1_3_Btn').on('click',function () {
         hideTc_2_3();
-    })
+    });
+    //2级页面确认按钮
+    $('.entBtn').on('click',function () {
+        history.go(-1);
+    });
     //显示2级页面第一个弹窗
     function showTc_2_1() {
         $('.tc-1_1').fadeIn();
