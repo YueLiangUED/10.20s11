@@ -409,8 +409,12 @@ main footer{
 main footer>div{
     width: 5.97rem;
     height: 1.17rem;
-    background: url("../images/footerBtn.png") center no-repeat;
-    background-size: cover;
+    /*background: url("../images/footerBtn.png") center no-repeat;
+    background-size: cover;*/
+}
+main footer>div a img{
+    width: 100%;
+    height: 100%;
 }
 
 .mask{
@@ -422,4 +426,101 @@ main footer>div{
     left: 0px;
     opacity: 0.8;
     -moz-opacity: 0.8;
+}
+.tc_1{
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 5.98rem;
+    height: 4.15rem;
+    background: url("../images/tc_1Bg.png") center no-repeat;
+    background-size: cover;
+    z-index: 1000;
+}
+.tc_1>div:first-child{
+    position: relative;
+    margin: 0 auto;
+    width: 4.77rem;
+}
+.tc_1>div:first-child>div{
+    position: absolute;
+    top: .65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.37rem;
+    height: 1.68rem;
+    background: url("../images/tc_numBox.png") center no-repeat;
+    background-size: cover;
+}
+.tc_1>div:first-child>div:nth-child(1){
+    left: 0;
+}
+.tc_1>div:first-child>div:nth-child(2){
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.tc_1>div:first-child>div:nth-child(3){
+    right: 0;
+}
+.tc_1>div:first-child>div div{
+    overflow: hidden;
+    height: .92rem;
+}
+.tc_1>div:first-child div ul{
+    position: relative;
+}
+@keyframes rollroll {
+    0% { top: -.92rem; }
+    10% {top: -1.84rem;}
+    20% { top: -2.76rem;}
+    30% {top: -3.68rem;}
+    40% { top: -4.6rem;}
+    50%{top: -5.52rem;}
+    60%{top: -6.44rem;}
+    70%{top: -7.36rem;}
+    80%{top: -8.28rem;}
+    90%{top: -9.2rem;}
+    100%{top: -10.12rem;}
+}
+.tc_1>div:first-child div:nth-child(1) ul.act {
+    animation: rollroll .5s infinite;
+}
+.tc_1>div:first-child div:nth-child(2) ul.act{
+    animation: rollroll .5s infinite;
+}
+.tc_1>div:first-child div:nth-child(3) ul.act{
+    animation: rollroll .5s infinite;
+}
+/*.tc_1>div:first-child div:nth-child(1) ul.act_1{
+    animation: rollroll 12s cubic-bezier(1.000, 0.005, 0.995, 0.090) infinite;
+}*/
+.tc_1>div:first-child div ul li{
+    box-sizing: border-box;
+    width: .92rem;
+    height: .92rem;
+    font-size: .48rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: .92rem;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.5) inset;
+    background-color: #fc3f2f;
+}
+.tc_1>div:last-child{
+    position: absolute;
+    bottom: .4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 2.16rem;
+    height: 1.14rem;
+    background: url("../images/tcCjBtn.png") center no-repeat;
+    background-size: cover;
 }
