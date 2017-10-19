@@ -413,7 +413,7 @@ main footer>div{
     /*background: url("../images/footerBtn.png") center no-repeat;
     background-size: cover;*/
 }
-main footer>div a img{
+main footer>div img{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -529,5 +529,59 @@ main footer>div a img{
     width: 2.16rem;
     height: 1.14rem;
     background: url("../images/tcCjBtn.png") center no-repeat;
+    background-size: cover;
+}
+
+.tc{
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    width: 7.11rem;
+    height: 6.02rem;
+    background: url("../images/tc_02_Bg.png") center no-repeat;
+    background-size: cover;
+    z-index: 1000;
+}
+.tc-1_3{
+    display: none;
+}
+.tc-1_3 p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: .26rem;
+    color: #666666;
+}
+.tc-1_3 p:nth-child(1){
+    top: 2rem;
+}
+.tc-1_3 p span{
+    font-size: .36rem;
+    color: #ff3d02;
+}
+.tc-1_3 p:nth-child(2){
+    top: 2.85rem;
+}
+.tc-1_3 p:nth-child(2) span{
+    font-size: .26rem;
+}
+.tc-1_3 p:nth-child(3){
+    top: 3.5rem;
+}
+.tc-1_3_Btn{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: .8rem;
+    width: 2.1rem;
+    height: .83rem;
+    background: url("../images/tc_1_2_qdBtn.png") center no-repeat;
     background-size: cover;
 }

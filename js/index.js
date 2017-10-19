@@ -167,7 +167,10 @@ $(function () {
             },500);
         });
     },1000);
-
+    //首页再玩一次按钮
+    $('#gemeAgainBtn').on('click',function () {
+        showTc_2_3();
+    });
     //首页点击领奖按钮
     $('#ljBtn').on('click',function () {
         window.location.href = 'index1.html';
@@ -213,7 +216,7 @@ $(function () {
     }
     //显示2级页面第三个弹窗
     function showTc_2_3() {
-        $('.tc-1_1').fadeIn();
+        $('.tc-1_3').fadeIn();
         showMask();
     }
     //隐藏2级页面第一个弹窗
