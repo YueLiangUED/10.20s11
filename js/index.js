@@ -7,6 +7,7 @@
 })(window);
 
 $(function () {
+    countAnimate();
     //灯光动画
     function show_light() {
         var $l1 = $('.l1'),
@@ -31,10 +32,18 @@ $(function () {
     }
     window.setInterval(show_light,1000);
 
+    //计数器动画
+    function countAnimate() {
+        var $uls = $('.numBoxInner').find('ul');
+        window.setTimeout(function () {
+            $uls.addClass('act');
+        },1000);
+    }
     //计数器
     //@param string
-    count('1232');
+    count('12323');
     function count(numStr) {
+        countAnimate();
         var numArr = ('00000000' + numStr).slice(-8);
         numArr = new Array(numArr[0],numArr[1],numArr[2],numArr[3],numArr[4],numArr[5],numArr[6],numArr[7]);
         var $box = $('.numBoxInner'),
@@ -148,11 +157,11 @@ $(function () {
     });
     //首页再玩一次按钮动画
     window.setInterval(function () {
-        $('footer div').animate({
-            width: '50%',
+        $('footer div img').animate({
+            width: '80%',
             height: '80%'
         },500,function () {
-            $('footer div').animate({
+            $('footer div img').animate({
                 width: '100%',
                 height: '100%'
             },500);

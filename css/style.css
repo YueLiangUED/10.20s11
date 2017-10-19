@@ -111,28 +111,28 @@ header>div>div .numBoxInner>div ul{
     /*border-radius: .1rem;
     background-color: #373737;*/
 }
-header>div>div .numBoxInner ul:nth-child(2){
+header>div>div .numBoxInner ul:nth-child(2).act{
     animation: roll .5s cubic-bezier(1.000, 0.005, 0.995, 0.090) ;
 }
-header>div>div .numBoxInner ul:nth-child(3){
+header>div>div .numBoxInner ul:nth-child(3).act{
     animation: roll .6s cubic-bezier(1.000, 0.005, 0.995, 0.090) ;
 }
-header>div>div .numBoxInner ul:nth-child(4){
+header>div>div .numBoxInner ul:nth-child(4).act{
     animation: roll .7s cubic-bezier(1.000, 0.005, 0.995, 0.090) ;
 }
-header>div>div .numBoxInner ul:nth-child(5){
+header>div>div .numBoxInner ul:nth-child(5).act{
     animation: roll .8s cubic-bezier(1.000, 0.005, 0.995, 0.090) ;
 }
-header>div>div .numBoxInner ul:nth-child(6){
+header>div>div .numBoxInner ul:nth-child(6).act{
     animation: roll .9s cubic-bezier(1.000, 0.005, 0.995, 0.090) ;
 }
-header>div>div .numBoxInner ul:nth-child(7){
+header>div>div .numBoxInner ul:nth-child(7).act{
     animation: roll 1s cubic-bezier(1.000, 0.005, 0.995, 0.090) ;
 }
-header>div>div .numBoxInner ul:nth-child(8){
+header>div>div .numBoxInner ul:nth-child(8).act{
     animation: roll 1.1s cubic-bezier(1.000, 0.005, 0.995, 0.090) ;
 }
-header>div>div .numBoxInner ul:nth-child(9){
+header>div>div .numBoxInner ul:nth-child(9).act{
     animation: roll 1.2s cubic-bezier(1.000, 0.005, 0.995, 0.090) ;
 }
 @keyframes roll {
@@ -407,6 +407,7 @@ main footer{
     height: 1.17rem;
 }
 main footer>div{
+    position: relative;
     width: 5.97rem;
     height: 1.17rem;
     /*background: url("../images/footerBtn.png") center no-repeat;
@@ -415,6 +416,10 @@ main footer>div{
 main footer>div a img{
     width: 100%;
     height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .mask{
