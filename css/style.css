@@ -469,7 +469,12 @@ main footer>div a img{
 }
 .tc_1>div:first-child>div div{
     overflow: hidden;
-    height: .92rem;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.5) inset;
+    background-color: #fc3f2f;
 }
 .tc_1>div:first-child div ul{
     position: relative;
@@ -501,17 +506,14 @@ main footer>div a img{
 }*/
 .tc_1>div:first-child div ul li{
     box-sizing: border-box;
-    width: .92rem;
-    height: .92rem;
-    font-size: .48rem;
+    width: 1rem;
+    height: 1rem;
+    font-size: .6rem;
     font-weight: bold;
     text-align: center;
-    line-height: .92rem;
+    line-height: 1.1rem;
     color: #ffffff;
-    border: 2px solid #ffffff;
     border-radius: 50%;
-    box-shadow: 3px 3px 5px rgba(0,0,0,.5) inset;
-    background-color: #fc3f2f;
 }
 .tc_1>div:last-child{
     position: absolute;

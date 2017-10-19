@@ -82,10 +82,10 @@ $(function () {
         if($(this).hasClass('active')){
             return false;
         }else{
+            $('.n1').children().text(0);
+            $('.n2').children().text(0);
+            $('.n3').children().text(0);
             $(this).addClass('active');
-            $('.n1').addClass('act');
-            $('.n2').addClass('act');
-            $('.n3').addClass('act');
             flag = true;
             showTc_1();
             if($(this).hasClass('_1')){
@@ -117,16 +117,21 @@ $(function () {
             nums_b = Math.floor(Math.random()*10),
             nums_c = Math.floor(Math.random()*10);
         if(flag){
-            $n3.removeClass('act');
-            $n3.children().text(nums_a);
+            $n1.addClass('act');
+            $n2.addClass('act');
+            $n3.addClass('act');
+            var timer0 = window.setTimeout(function () {
+                $n3.removeClass('act');
+                $n3.children().text(nums_a);
+            },1000);
             var timer1 = window.setTimeout(function () {
                 $n2.removeClass('act');
                 $n2.children().text(nums_b);
-            },1000);
+            },2000);
             var timer2 = window.setTimeout(function () {
                 $n1.removeClass('act');
                 $n1.children().text(nums_c);
-            },2000);
+            },3000);
             var timer3 = window.setTimeout(function () {
                 hideTc_1();
                 if(f_ == 1){
@@ -136,7 +141,7 @@ $(function () {
                 }else if(f_ == 3){
                     $('.mbBox div:nth-child(3) span').text(nums_c.toString()+nums_b.toString()+nums_a.toString());
                 }
-            },2500);
+            },4000);
             flag = false;
         }
 
