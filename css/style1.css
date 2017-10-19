@@ -1,0 +1,125 @@
+html,body{
+    width: 7.5rem;
+    height: 100%;
+    background: -webkit-linear-gradient(top,#510091,#c31e30,#ff9601);
+}
+section{
+    width: 7.5rem;
+}
+header{
+    width: 7.5rem;
+    height: 5.28rem;
+    background: url("../images/header_2.png") center no-repeat;
+    background-size: cover;
+}
+main{
+    margin: -.4rem auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.74rem;
+    height: 8.2rem;
+    border-radius: .1rem;
+    box-shadow: 5px 10px 20px #da4810;
+    background: -webkit-gradient(linear,0 100%,100% 0,from(#feef7c),to(#fcad12));
+}
+main>div{
+    box-sizing: border-box;
+    width: 6.46rem;
+    height: 7.86rem;
+    border: 2px solid #d56f03;
+    border-radius: .1rem;
+    background-color: #fffde6;
+}
+main>div .title{
+    position: relative;
+    margin: .6rem auto .35rem;
+    width: 5.49rem;
+    height: .81rem;
+    border-radius: .1rem;
+    background-color: #feea71;
+}
+main>div .title span{
+    position: absolute;
+    width: 1.2rem;
+    text-align: center;
+    font-size: .3rem;
+    line-height: .81rem;
+    color: #111111;
+}
+main>div .title span:nth-child(1){
+    left: .33rem;
+}
+main>div .title span:nth-child(2){
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+main>div .title span:nth-child(3){
+    right: .33rem;
+}
+main>div ul{
+    overflow: scroll;
+    margin: 0 auto;
+    width: 5.24rem;
+    height: 4rem;
+}
+main>div ul li{
+    position: relative;
+    box-sizing: border-box;
+    width: 5.24rem;
+    height: .8rem;
+    border-bottom: 2px dashed #979690;
+}
+main>div ul li span{
+    position: absolute;
+}
+main>div ul li span:nth-child(1){
+    left: 0;
+    font-size: .28rem;
+    line-height: .8rem;
+    color: #111111;
+}
+main>div ul li span:nth-child(2){
+    width: .98rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: .28rem;
+    line-height: .8rem;
+    color: #c72c3a;
+}
+main>div ul li span:nth-child(3){
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: .99rem;
+    height: .41rem;
+    border-radius: .05rem;
+    font-size: .2rem;
+    text-align: center;
+    line-height: .41rem;
+    color: #ffffff;
+    background-color: #ff7f1e;
+}
+main>div ul li span:nth-child(3).act{
+    background-color: #bbbbbb;
+}
+main>div .entBtn{
+    margin: .5rem auto;
+    width: 3.01rem;
+    height: 1.1rem;
+    background: url("../images/entBtnBg.png") center no-repeat;
+    background-size: cover;
+}
+.mask{
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=80);
+    background-color: #000;
+    z-index: 100;
+    left: 0px;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+}

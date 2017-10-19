@@ -154,6 +154,10 @@ $(function () {
         });
     },1000);
 
+    //首页点击领奖按钮
+    $('#ljBtn').on('click',function () {
+        window.location.href = 'index1.html';
+    });
     //显示遮罩层
     function showMask(){
         $("#mask").css("height",$(document).height());
