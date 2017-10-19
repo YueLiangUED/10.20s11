@@ -92,8 +92,6 @@ header>div>div .numBoxInner>div{
     overflow: hidden;
     display: flex;
     align-items: center;
-    width: 4.53rem;
-    height: .51rem;
 }
 header>div>div .numBoxInner>div span{
     margin-right: .1rem;
