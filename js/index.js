@@ -193,6 +193,14 @@ $(function () {
         hideTc_2_1();
         showTc_2_2();
     });
+    //2级页面第二个弹窗确定按钮
+    $('.tc-1_2_Btn').on('click',function () {
+        hideTc_2_2();
+    });
+    //2级页面第三个弹窗确定按钮
+    $('.tc-1_3_Btn').on('click',function () {
+        hideTc_2_3();
+    })
     //显示2级页面第一个弹窗
     function showTc_2_1() {
         $('.tc-1_1').fadeIn();
@@ -215,12 +223,12 @@ $(function () {
     }
     //隐藏2级页面第二个弹窗
     function hideTc_2_2() {
-        $('.tc-1_1').fadeOut();
+        $('.tc-1_2').fadeOut();
         hideMask();
     }
     //隐藏2级页面第三个弹窗
     function hideTc_2_3() {
-        $('.tc-1_1').fadeOut();
+        $('.tc-1_3').fadeOut();
         hideMask();
     }
     //显示遮罩层
