@@ -92,9 +92,9 @@ $(function () {
         },500,function () {
             $('footer div').animate({
                 opacity: '1'
-            },500);
+            },1000);
         });
-    },500)
+    },1500);
 
     //显示遮罩层
     function showMask(){
