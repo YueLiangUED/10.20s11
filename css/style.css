@@ -135,13 +135,6 @@ header>div>div .numBoxInner ul:nth-child(8){
 header>div>div .numBoxInner ul:nth-child(9){
     animation: roll .8s cubic-bezier(1.000, 0.005, 0.995, 0.090) ;
 }
--webkit-@keyframes roll {
-    0% { top: -.41rem; }
-    25% {top: -.81rem;}
-    50% { top: -1.21rem;}
-    75% {top: -1.61rem;}
-    100% { top: -1.83rem;}
-}
 @keyframes roll {
     0% { top: -.41rem; }
     25% {top: -.81rem;}
