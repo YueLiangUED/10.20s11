@@ -241,7 +241,7 @@ main>div .entBtn{
     color: #ff5900;
 }
 .tc-1_2 p:nth-child(4){
-    top: 3.8rem;
+    top: 3.2rem;
     font-size: .34rem;
     color: #ff3e02;
 }
@@ -250,14 +250,14 @@ main>div .entBtn{
     left: 0;
     right: 0;
     margin: auto;
-    top: 4.5rem;
+    top: 3.9rem;
     width: 2.1rem;
     height: .83rem;
     background: url("../images/tc_1_2_qdBtn.png") center no-repeat;
     background-size: cover;
 }
 .tc-1_2 p:nth-child(6){
-    top: 3.2rem;
+    top: 4.8rem;
     font-size: .16rem;
     text-align: center;
     color: #666666;
