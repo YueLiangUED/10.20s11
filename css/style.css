@@ -548,13 +548,13 @@ main footer>div img{
     display: flex;
     justify-content: center;
     width: 7.11rem;
-    height: 6.02rem;
+    height: 7.02rem;
     background: url("../images/tc_02_Bg.png") center no-repeat;
     background-size: cover;
     z-index: 1000;
 }
 .tc-1_3{
-    //display: none;
+    display: none;
 }
 .tc-1_3 p{
     position: absolute;
@@ -566,42 +566,42 @@ main footer>div img{
     color: #666666;
 }
 .tc-1_3 p:nth-child(1){
-    top: 1.6rem;
+    top: 1.7rem;
 }
 .tc-1_3 p span{
     font-size: .36rem;
     color: #ff3d02;
 }
 .tc-1_3 p:nth-child(2){
-    top: 2.15rem;
+    top: 2.3rem;
 }
 .tc-1_3 p:nth-child(2) span{
     font-size: .26rem;
 }
 .tc-1_3 p:nth-child(3){
-    top: 2.5rem;
+    top: 2.7rem;
 }
 .tc-1_3 p:nth-child(4){
-    top: 2.8rem;
-}
-.tc-1_3 p:nth-child(5){
     top: 3.1rem;
 }
+.tc-1_3 p:nth-child(5){
+    top: 3.5rem;
+}
 .tc-1_3 p:nth-child(6){
-    top: 3.55rem;
+    top: 4rem;
 }
 .tc-1_3 p:nth-child(7){
-    top: 3.9rem;
+    top: 4.4rem;
 }
 .tc-1_3_Btn{
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
-    bottom: .7rem;
-    width: 2.1rem;
+    bottom: 1rem;
+    width: 2.4rem;
     height: .83rem;
-    background: url("../images/tc_1_2_qdBtn.png") center no-repeat;
+    background: url("../images/tc-1_3Btn_st.png") center no-repeat;
     background-size: cover;
 }
 
@@ -617,6 +617,7 @@ main footer>div img{
     height: 3.35rem;
     border: 1px solid #6c288d;
     border-radius: .5rem;
+    z-index: 50;
 }
 .rightFixedBox div{
     display: flex;

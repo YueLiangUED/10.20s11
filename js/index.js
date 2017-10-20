@@ -173,13 +173,13 @@ $(function () {
         $('footer div img').animate({
             width: '90%',
             height: '90%'
-        },100,function () {
+        },500,function () {
             $('footer div img').animate({
                 width: '100%',
                 height: '100%'
-            },100);
+            },500);
         });
-    },250);
+    },1000);
     //首页再玩一次按钮
     $('#gemeAgainBtn').on('click',function () {
         showTc_2_3();
@@ -197,6 +197,17 @@ $(function () {
             $(this).addClass('flag');
         }
     });
+    //首页右侧浮层动画
+    window.setInterval(function () {
+        $('.rightFixedBox').animate({
+            top: '33%'
+        },300,function () {
+            $('.rightFixedBox').animate({
+                top: '27%'
+            },400);
+        });
+    },800);
+
     //2级页面第一个弹窗取消按钮
     $('.tc-1_1_Btn_qx').on('click',function () {
         hideTc_2_1();
