@@ -192,9 +192,12 @@ main>div .entBtn{
 }
 .tc-1_1 .jpBox span:nth-child(2){
     position: absolute;
+    /*top: 0;
+    bottom: 0;
+    margin: auto;*/
     right: .25rem;
     font-size: .34rem;
-    line-height: 1.2em;
+    /*line-height: 1.2em;*/
     color: #ffffff;
 }
 .tc-1_1 .tc-1_1_Btn{

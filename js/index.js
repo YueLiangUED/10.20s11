@@ -91,7 +91,7 @@ $(function () {
         if($(this).hasClass('active')){
             return false;
         }else{
-            timerCj = window.setInterval(gameBtnAnimate,550);
+            //timerCj = window.setInterval(gameBtnAnimate,550);
             $('.n1').children().text(0);
             $('.n2').children().text(0);
             $('.n3').children().text(0);
@@ -120,7 +120,7 @@ $(function () {
     //老虎机抽奖按钮
     var flag = true;
     $('.tcCjBtn').on('click',function () {
-        window.clearInterval(timerCj);
+        //window.clearInterval(timerCj);
         var $n1 = $('.n1'),
             $n2 = $('.n2'),
             $n3 = $('.n3'),
@@ -167,7 +167,7 @@ $(function () {
             },250)
         });
     }
-    var timerCj = window.setInterval(gameBtnAnimate(),550);
+   //var timerCj = window.setInterval(gameBtnAnimate(),550);
     //首页再玩一次按钮动画
     window.setInterval(function () {
         $('footer div img').animate({
