@@ -585,3 +585,28 @@ main footer>div img{
     background: url("../images/tc_1_2_qdBtn.png") center no-repeat;
     background-size: cover;
 }
+
+.rightFixedBox{
+    position: fixed;
+    top: 30%;
+    right: .23rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: .38rem;
+    height: 3.35rem;
+    border: 1px solid #6c288d;
+    border-radius: .5rem;
+}
+.rightFixedBox div{
+    display: flex;
+    align-items: center;
+    width: .32rem;
+    height: 3.29rem;
+    font-size: .22rem;
+    text-align: center;
+    color: #fffbe0;
+    border-radius: .5rem;
+    background-color: #6c288d;
+}
