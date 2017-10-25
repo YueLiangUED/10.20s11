@@ -154,7 +154,6 @@ header>div>div .numBoxInner ul li{
     width: .34rem;
     height: .51rem;
     border-radius: .1rem;
-    background-color: #373737;
     font-size: .34rem;
     line-height: .51rem;
     text-align: center;
@@ -629,4 +628,48 @@ main footer>div img{
     color: #fffbe0;
     border-radius: .5rem;
     background-color: #6c288d;
+}
+.tc-1_4{
+    display: none;
+}
+.tc.tc-1_4 p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: .3rem;
+    color: #666666;
+}
+.tc.tc-1_4 p:nth-child(1){
+    font-size: .4rem;
+    top: 1.8rem;
+}
+.tc.tc-1_4 p:nth-child(2){
+    top: 2.8rem;
+}
+.tc.tc-1_4 p:nth-child(2) span{
+    font-size: .4rem;
+    color: #ff3d02;
+}
+.tc.tc-1_4 p:nth-child(3){
+    top: 3.5rem;
+}
+.tc.tc-1_4 p:nth-child(3) span{
+    font-size: .4rem;
+    color: #ff3d02;
+}
+.tc.tc-1_4 p:nth-child(4){
+    top: 4.3rem;
+}
+.tc.tc-1_4 .tc-1_4_Btn{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 1rem;
+    width: 2.1rem;
+    height: .83rem;
+    background: url("../images/tc_1_2_qdBtn.png") center no-repeat;
+    background-size: cover;
 }

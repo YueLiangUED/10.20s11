@@ -208,6 +208,10 @@ $(function () {
         });
     },800);
 
+    //首页温馨提示弹窗确定按钮
+    $('.tc-1_4_Btn').on('click',function () {
+        hideTc_1_4();
+    });
     //2级页面第一个弹窗取消按钮
     $('.tc-1_1_Btn_qx').on('click',function () {
         hideTc_2_1();
@@ -232,6 +236,11 @@ $(function () {
     $('.entBtn').on('click',function () {
         history.go(-1);
     });
+    //显示首页温馨提示弹窗
+    function showTc_1_4() {
+        $('.tc-1_4').fadeIn();
+        showMask();
+    }
     //显示2级页面第一个弹窗
     function showTc_2_1() {
         $('.tc-1_1').fadeIn();
@@ -246,6 +255,11 @@ $(function () {
     function showTc_2_3() {
         $('.tc-1_3').fadeIn();
         showMask();
+    }
+    //隐藏首页温馨提示弹窗
+    function hideTc_1_4() {
+        $('.tc-1_4').fadeOut();
+        hideMask();
     }
     //隐藏2级页面第一个弹窗
     function hideTc_2_1() {
